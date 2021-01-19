@@ -50,7 +50,7 @@ function renderQuote(quote){ //function to render each Quote
 function formEventListener(){
     form.addEventListener('submit', function(e){
         e.preventDefault();
-        // e.target.quote.value
+        // e.target.quote.value same as line below
         const newQuoteText = form.querySelector('#new-quote').value;
         const newAuthor = form.querySelector('input[name="author"]').value; //another way of getting inputfield.
         const newQuote = {
